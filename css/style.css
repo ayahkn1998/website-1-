@@ -1,0 +1,713 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ /*//////////////////////////head///////////////////////////////*/
+ body{
+    height: 6500px;
+    background-color: rgb(255, 255, 255); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    z-index: 1;   
+}
+.header_img{
+    width: 180px;
+    height: 65px;
+    margin-left: 80px;
+    float: left;
+}
+.header_list{
+    float: right;
+    margin-right: 140PX;
+    margin-top: 20px;
+}
+.header_list li{
+    list-style: none;
+    font-size: 21px;
+    display: inline;
+    color: black ;
+    margin-left: 50px;
+}
+.header_list li a{
+    color: rgb(44, 35, 35);
+    text-decoration: none;
+    text-decoration-color: black(238, 142, 166) ;
+}
+.header_btn{
+    width: 130px;
+    height: 40px;
+   margin-left: 50px;
+    border-radius: 15px;
+    background-color: rgb(221, 15, 118);
+    color: white;
+    border: none;
+}
+.header_btn:hover{
+    background-color: rgb(179, 6, 92);
+}
+/*//////////////////////////////*seaction 1/////////////////////////////////////////////*/
+.seaction1{
+    height: 100vh;
+    background-color: rgb(10, 10, 71);    
+}
+.PrestaShop_img{
+    width: 32%;
+    height: 470px;
+    margin-left: 840px;
+    margin-top: 90px;
+    display: inline;
+}
+.PrestaShop_text{
+    width: 600x;
+    margin-top: -400px;
+    margin-left: 80px;
+    color: white;
+}
+.PrestaShop_text h1{
+    font-size: 50px;
+}
+.PrestaShop_text p{
+    margin-top: 60px;
+    font-size: 20px;
+}
+.PrestaShop_btn{
+    width: 250px;
+    height: 40px; 
+   margin-top: 60px;
+    border-radius: 5px;
+    background-color: rgb(221, 15, 118);
+    color: white;
+    border: none;
+}
+.btnPrestaShop_btn:hover{
+    background-color: rgb(179, 6, 92);
+}
+/*///////////////////////////////////////////////section2///////////////////////////////*/
+.seaction2{
+    height: 100vh;
+}
+.ecommerce_container{
+    width: 100%;
+    height: 100vh;
+    margin:auto;
+    margin-top: 80px;  
+}
+.adress_div{
+    margin-top: 35px;
+}
+.Adress{  
+    text-align: center;
+    font-size: 38px;
+}
+.d h2{
+margin-top: 30px;
+}
+.h22{
+    color: rgb(10, 10, 71)
+}
+.div22{
+    width: 50px;
+    height: 5px;
+    background-color: rgb(221, 15, 118);
+    margin: auto;
+    margin-top: 10px;   
+}
+.div3{
+    color: rgb(138, 126, 126);
+    font-size: 25;
+    text-align: center;
+    margin-top: 40px;
+}
+.ecommerce_parent{
+    margin-top: 60px;
+    margin-left: 35px;
+   overflow: auto; 
+}
+.ecommerce_child{
+   margin-left: 60px;
+    margin-top: 100px;
+    float: left;
+    font-size: small;
+    position: relative;
+}
+.ecommerce_child p{
+    text-align: center;
+    font-size: 25;
+    color: rgb(138, 126, 126);
+    line-height: 20px;
+}
+.ecommerce_img{
+    width: 100%;
+position: relative;
+    
+}
+ .ecommerce_img img{
+        margin-left: 25%;
+   
+} 
+.ecommerce_text{
+    text-align: center;
+    margin-top: 20px;
+}
+.ecommerce_child:after{
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(160, 160, 160);
+    opacity: 0;
+    }
+.ecommerce_child:hover:after{
+     width: 100%;
+     height: 100%;
+     opacity: 0.3;
+     transition: 3s;
+    }
+
+/*///////////////////////////////////////////////section3///////////////////////////////*/
+.seaction3{
+   
+    height: 100vh;
+}
+.try_list{
+    float: right;
+    margin-right: 270PX;
+    margin-top: 20px; 
+}
+.try_list li{
+    list-style: square;
+    font-size: 21px;
+    display: inline;
+    color: black ;
+}
+.try_text{
+    margin-top: -400px;
+    margin-left: 20px;
+}
+.try_text h2 {
+    font-size: 38px;
+    color: rgb(10, 10, 71)
+}
+.try_text_1{
+    width: 50px;
+    height: 5px;
+    background-color: rgb(221, 15, 118);
+    margin-left: 80px;
+    margin-top: 20px;  
+}
+.try_p1{
+    color: rgb(138, 126, 126);
+    font-size: 25px;
+    margin-top: 20px;
+}
+.try_btn{
+    width: 250px;
+    height: 40px;
+   margin-top: 60px;
+    border-radius: 5px;
+    color:  rgb(179, 6, 92);
+    border: solid;
+}
+.try_btn:hover{
+   opacity: 0.8;
+}
+.Try_img{
+    margin-top: 120px;
+}
+/*//////////////////////////////////seaction4/////////////////////*/
+.seaction4{
+    height: 100vh;
+    background-color: rgb(41, 41, 187); 
+}
+
+.h222{
+    color: white;
+}
+.join_parent{
+    overflow: auto;
+    height: 800px;
+}
+.join_child{
+    margin-top: 25px;
+    margin-left: 40px;
+    background-color: white;
+    width: 380px;
+    height: 240px;
+    float: left;
+
+}
+.join_parent h2{
+    text-align: center;
+}
+.join_text_1{
+    font-family: normal;
+    color: gray;
+    font-size: 15px;
+}
+.join_text{
+    margin-top: 25px; 
+}
+.join_img_1{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.sp22{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.join_text_2{
+    margin-left: 90px;
+    margin-top: -60px;
+}
+.img12{
+    width: 60px;
+    height: 60px;
+}
+.im_1{
+    width: 380px;
+    height: 240px;
+}
+/*/////////////////////////////////seaction5//////////////*/
+.seaction5{
+    height: 100vh;
+    margin-top: 150px;
+}
+.container_part{
+    width: 90%;
+    height: 500px;
+    margin:auto;
+    margin-top: 40px;
+}
+.part_parent{
+ overflow: auto;
+ margin: auto;
+ height: 100%;
+
+}
+.part_parent div h2{
+      margin-top: 20px;
+    text-align: center;   
+}
+.part_parent div p{
+    text-align: center;
+    margin-top: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+.part_btn2{
+    width: 200px;
+    height: 50px;
+  margin-top: 60px;
+  margin-left: 70px;
+    border-radius: 2px;
+    background-color: rgb(221, 15, 118);
+    color: white;
+    border: 1px;
+}
+.part_btn2:hover{
+    background-color: rgb(179, 6, 92);
+} 
+.part_part{
+    width: 350px;
+    height: 400px;
+    color: black;
+    border: 3px solid  black;
+    margin-left: 40px;
+    margin-top: 40px;
+    float: left;
+    position: relative;
+
+}
+
+.part_part div{
+    width: 100px;
+    height: 50px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50%;
+   margin-left: 130px;
+   margin-top: 10px;
+}
+.part_part:after{
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(14, 3, 65);
+    opacity: 0;
+    }
+.part_part:hover:after{
+     width: 100%;
+     height: 100%;
+     opacity: 0.3;
+     transition: 1s;
+    }
+/* //////////////////////////////////////////////seaction6//////////////////////////// */
+.seaction6{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(10, 10, 71);
+}
+.container{
+    width: 90%;
+    height: 100vh;
+    margin:auto;
+    margin-top: 80px;   
+}
+.merchants_parent{
+ overflow: auto;
+ margin: auto;
+}
+.merchants_1{
+    float: left;
+    width: 33%;
+    padding: 20px 15px;
+   text-align: center;
+   background-color: rgb(255, 255, 255);
+   border-radius: 12px;
+   margin: 2px;
+   position: relative;
+}
+
+.merchants_img{
+    width: 90%;
+    margin: auto;
+position: relative;
+}
+.merchants_img img{
+    width: 100%;
+}
+.merchants_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(145, 141, 141, 0.4);
+    visibility: hidden;
+    opacity: 0;
+}
+.merchants_1:hover .merchants_overlay{
+    visibility: visible;
+    opacity: 0.7;
+}
+.merchants_overlay a{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(125, 125, 236);
+    color: white;
+    display: block;
+    margin-left: auto;
+}
+.merchants_overlay a i {
+   line-height: 45px;
+}
+.merchants_1:after{
+position: absolute;
+content: " ";
+width: 0;
+height: 0;
+top: 0;
+left: 0;
+background-color: rgb(160, 160, 160);
+opacity: 0;
+}
+.merchants_1:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 2s;
+}
+.merchants_text{
+    line-height: 30px;
+}
+/* //////////////////////////////////////////////seaction7//////////////////////////// */
+.seaction7{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+     
+}
+.container_modules{
+    width: 90%;
+    height: 100vh;
+    margin:auto;
+    margin-top: 50px;
+  
+}
+.modules_parent{
+ overflow: auto;
+ margin: auto;
+ height: 100%;
+
+}
+.modules_merchants{
+    float: left;
+    width: 33%;
+    height: 590px;
+    padding: 20px 15px;
+   text-align: center;  
+   background-color: rgba(10, 10, 71);
+   margin: 2px;
+   position: relative;
+}
+.modules_img{
+    width: 90%;
+    margin: auto;
+position: relative;
+}
+.modules_img img{
+    width: 100%;
+}
+.modules_text{
+    color: white;
+    margin-top: 29px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.modules_icons{
+    margin-top: 10px;
+}
+.modules_icons a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.modules_text p{
+    margin-top: 20px;
+}
+.modules_merchants:after{
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(160, 160, 160);
+    opacity: 0;
+    }
+.modules_merchants:hover:after{
+     width: 100%;
+     height: 100%;
+     opacity: 0.3;
+     transition: 3s;
+    }
+.modules_merchants:before{
+    position: absolute;
+    content: " ";
+     width: 100%;
+    height: 0;
+    bottom: 0;
+     right: 0;
+    background-color: rgb(214, 209, 209);
+    opacity: 0;
+        }
+.modules_merchants:hover:before{
+            width: 100%;
+            height: 100%;
+            opacity: 0.3;
+            transition: 3s;
+        }
+
+              /* //////////////////////////////////////////////seaction8//////////////////////////// */
+      .seaction8{
+        margin-top: 220px;
+        height: 60vh;
+        width: 100%;
+      background-image: url(../images/which-features-should-a-successful-online-store-have.jpg);  
+      background-attachment: fixed;  
+      }
+     .seaction8_parent{
+        overflow: auto;
+    }
+    .seaction8_child{
+        margin-top: 25px;
+        margin-left: 120px;
+        float: left;
+    
+    }
+    .seaction8_parent h2{
+        text-align: center;
+    }
+    
+    .seaction8_text_1{
+        font-family: normal;
+        font-size: 15px;
+    }
+    .seaction8_text{
+        margin-top: 25px;
+        color: white;
+    }
+    .seaction8_img_1{
+        background-color: white;
+        margin-top: 70px;
+    }
+    
+    .seaction8_text_2{
+        margin-left: 90px;
+        margin-top: -60px;
+        color: white;
+    } 
+        /* //////////////////////////////////////////////seaction9//////////////////////////// */
+.seaction9{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.Contribute{
+    margin-top: 90px;
+}
+
+.Contribute_container{
+    width: 80%;
+    height: 100vh;
+    margin:auto;
+    margin-top: 50px;
+}
+.Contribute_parent{
+ overflow: auto;
+ margin: auto;
+ height: 70%;
+
+}
+.Contribute_child{
+    float: left;
+    width: 33%;
+    height: 50%;
+   text-align: center;
+  border-radius: 3px;
+   position: relative;
+}
+.Contribute_icon i{
+    width: 80px;
+    height: 80px;
+    color: rgb(125, 125, 236);
+    display: block;
+    font-size: 40px;
+}
+.Contribute_icon i{
+    line-height: 70px;
+}
+.Contribute_text{
+    position: relative;
+}
+.Contribute_text h2{
+    margin-top: -60px;
+    margin-left: 45px;
+    color: black;
+
+}
+.Contribute_text p{
+    margin-top: 20px;
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+.Contribute_child:after{
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(28, 24, 87);
+    opacity: 0;  
+    }
+.Contribute_child:hover:after{
+     width: 100%;
+     height: 100%;
+      opacity: 0.5; 
+     transition: 3s;
+     
+    }
+  
+    .Contribute_child:hover h2{
+        color:rgb(243, 26, 152);
+        transition: 3s;
+    }
+        /* //////////////////////////////////////////////seaction10//////////////////////////// */
+        .seaction10{
+            margin-top: 130px;
+            height: 60vh;
+            width: 100%;
+          background-image: url(../images/High_resolution_wallpaper_background_ID_77700433398.jpg);    
+          background-attachment: fixed;    
+        }
+          .seaction10_parent{
+           overflow: auto;
+           margin: auto;
+         margin-left: 140px;
+          }
+          .seaction10_container{
+            width: 70%;
+            height: 50vh;
+            margin:auto;
+            margin-top: 70px; 
+        }
+        .seaction10_child{
+             margin-top: 90px;
+            margin-left: 30px; 
+           width: 25%;
+           height: 25%;
+           float: left;
+          }
+          .icons {
+            margin: auto;
+            width: 100px;
+            height: 100px;
+          }
+          .icons i{
+            font-size: 90px;
+          }
+          .text h2, .text p{
+            text-align: center;
+            color: white;
+
+          }
+/*////////////////////////////seaction11////////////////////////////////////*/
+.seaction11{
+    margin-top: 100px;
+    height: 70vh;
+    width: 100%;
+   }
+   .seaction11_container{
+    width: 50%;
+    height: 80%;
+    margin: auto;
+   }
+   .seaction11_img img{
+    width: 280px;
+    height: 130px;
+    margin-left: 30%; 
+    margin-top: 10%;    
+   }
+   .seaction11_icons{
+    margin-left: 200px;
+   }
+   .seaction11_icons i{
+    color: rgb(8, 33, 54);
+   font-size:35px;
+   border-radius: 20px;
+   margin-left: 10px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+
+   }
+   .seaction11_text{
+    text-align: center;
+    color: grey;
+   }
+   .seaction11_icons i:hover{ 
+    color:  rgb(221, 15, 118);
+}    
